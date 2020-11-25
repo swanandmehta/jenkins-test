@@ -53,7 +53,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>com.package.MainClass</mainClass>
+							<mainClass>com.liberty.Home</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
