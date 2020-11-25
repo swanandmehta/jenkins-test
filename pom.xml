@@ -7,6 +7,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jenkins-test</name>
 	<description>jenkins-test</description>
+	<configuration>
+		<archive>
+			<manifest>
+				<addClasspath>true</addClasspath>
+				<mainClass>com.liberty.Home</mainClass>
+			</manifest>
+		</archive>
+	</configuration>
+
 	<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
