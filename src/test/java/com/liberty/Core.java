@@ -8,7 +8,7 @@ public class Core {
 	
 	public static boolean isSuccess() {
 		int value = random.nextInt(100);
-		return value <= 3 ? false : true;
+		return value <= -1 ? false : true;
 	}
 
 }
